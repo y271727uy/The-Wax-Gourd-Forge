@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "the_wax:wax_sugar"
+  ],
+  "result": {
+    "count": 4,
+    "id": "minecraft:sugar"
+  }
+}

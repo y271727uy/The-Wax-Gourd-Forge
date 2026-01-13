@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "the_wax:block/huge_pipe"
+      },
+      {
+        "model": "the_wax:block/huge_pipe",
+        "x": 180
+      },
+      {
+        "model": "the_wax:block/huge_pipe",
+        "y": 180
+      },
+      {
+        "model": "the_wax:block/huge_pipe",
+        "z": 180
+      }
+    ]
+  }
+}

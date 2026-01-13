@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": "the_wax:wax_strips",
+    "B": "#the_wax:wax",
+    "C": "minecraft:slime_block",
+    "E": "minecraft:sweet_berries"
+  },
+  "pattern": [
+    "AEA",
+    "BBB",
+    "CCC"
+  ],
+  "result": {
+    "count": 1,
+    "id": "the_wax:wax_jump_slime_item"
+  }
+}

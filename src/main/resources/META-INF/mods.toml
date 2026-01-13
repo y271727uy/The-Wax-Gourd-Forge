@@ -1,0 +1,30 @@
+modLoader="javafml" #mandatory
+loaderVersion="[47,)" #mandatory
+license="All Rights Reserved"
+issueTrackerURL="https://github.com/your_username/your_mod_repo/issues" #optional
+
+[[mods]] #mandatory
+modId="the_wax" #mandatory
+version="${file.jarVersion}" #mandatory
+displayName="The Wax" #mandatory
+displayURL="https://github.com/your_username/your_mod_repo" #optional
+logoFile="icon.png" #optional
+credits="Thanks for using this mod!" #optional
+authors="YourName" #optional
+description='''
+This is an example description! Tell everyone what your mod is about!
+'''
+
+[[dependencies.the_wax]] #optional
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.the_wax]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.21)"
+    ordering="NONE"
+    side="BOTH"

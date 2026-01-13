@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": "minecraft:gold_block",
+    "B": "the_wax:item_wax",
+    "C": "minecraft:gold_ingot"
+  },
+  "pattern": [
+    "CCC",
+    "CBC",
+    "CAC"
+  ],
+  "result": {
+    "count": 1,
+    "id": "the_wax:golden_wax"
+  }
+}

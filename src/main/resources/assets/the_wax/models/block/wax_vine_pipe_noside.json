@@ -1,0 +1,16 @@
+{
+    "ambientocclusion": false,
+    "textures": {
+        "texture": "the_wax:block/wax_vine_pipe",
+        "inside": "the_wax:block/wax_vine_pipe",
+        "particle": "the_wax:block/wax_vine_pipe"
+    },
+    "elements": [
+        {   "from": [ 4, 4, 4 ],
+            "to": [ 12, 12, 12 ],
+            "faces": {
+                "north": { "texture": "#inside" }
+            }
+        }
+    ]
+}

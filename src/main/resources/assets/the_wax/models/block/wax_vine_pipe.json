@@ -1,0 +1,23 @@
+{
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
+	"parent": "the_wax:block/template_fruit_log",
+	"textures": {
+		"texture": "the_wax:block/wax_vine_pipe"
+	},
+	"elements": [
+		{
+			"from": [2, 2, 2],
+			"to": [14, 14, 14],
+			"rotation": {"angle": 0, "axis": "y", "origin": [2, 2, 2]},
+			"faces": {
+				"north": {"uv": [0, 0, 12, 12], "texture": "#texture"},
+				"east": {"uv": [0, 0, 12, 12], "texture": "#texture"},
+				"south": {"uv": [0, 0, 12, 12], "texture": "#texture"},
+				"west": {"uv": [0, 0, 12, 12], "texture": "#texture"},
+				"up": {"uv": [0, 0, 12, 12], "texture": "#texture"},
+				"down": {"uv": [0, 0, 12, 12], "texture": "#texture"}
+			}
+		}
+	]
+}

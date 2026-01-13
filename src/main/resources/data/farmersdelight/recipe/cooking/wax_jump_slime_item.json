@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cooking",
+  "experience": 5.0,
+  "cookingtime": 600,
+  "ingredients": [
+    "minecraft:sweet_berries",
+    "minecraft:slime_block",
+    "#the_wax:wax",
+    "the_wax:wax_strips",
+    "the_wax:wax_strips"
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "count": 1,
+    "id": "the_wax:wax_jump_slime_item"
+  }
+}

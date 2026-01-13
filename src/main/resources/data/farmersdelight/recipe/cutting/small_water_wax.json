@@ -1,0 +1,19 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    "the_wax:water_wax"
+  ],
+  "result": [
+    {
+      "item": {
+        "count": 4,
+        "id": "the_wax:small_water_wax"
+      }
+    }
+  ],
+  "sound": "minecraft:item.axe.strip",
+  "tool": {
+    "fabric:type": "farmersdelight:item_ability",
+    "action": "axe_strip"
+  }
+}

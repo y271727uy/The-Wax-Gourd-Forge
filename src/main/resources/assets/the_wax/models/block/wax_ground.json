@@ -1,0 +1,11 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "north": "the_wax:block/wax_ground",
+    "east": "the_wax:block/wax_ground",
+    "south": "the_wax:block/wax_ground",
+    "west": "the_wax:block/wax_ground",
+    "up": "the_wax:block/wax",
+    "down": "the_wax:block/wax_ground_down"
+  }
+}

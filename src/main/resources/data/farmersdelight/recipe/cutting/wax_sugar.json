@@ -1,0 +1,18 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    "the_wax:wax_sugar"
+  ],
+  "result": [
+    {
+      "item": {
+        "count": 4,
+        "id": "minecraft:sugar"
+      }
+    }
+  ],
+  "tool": {
+    "fabric:type": "farmersdelight:item_ability",
+    "action": "pickaxe_dig"
+  }
+}

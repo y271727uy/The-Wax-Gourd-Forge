@@ -1,0 +1,10 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "the_wax:block/water_wax_base",
+        "uvlock": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "particle": "the_wax:block/wax_sugar_all.png",
+    "down": "the_wax:block/wax_sugar_blank",
+    "up": "the_wax:block/wax_sugar_blank",
+    "north": "the_wax:block/wax_sugar_up",
+    "east": "the_wax:block/wax_sugar_up",
+    "south": "the_wax:block/wax_sugar_up",
+    "west": "the_wax:block/wax_sugar_up"
+  }
+}
+

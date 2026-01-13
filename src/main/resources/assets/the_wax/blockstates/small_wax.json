@@ -1,0 +1,22 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "the_wax:block/small_wax",
+        "uvlock": true
+      },
+      "when": {
+        "in_air": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "the_wax:block/small_wax_air",
+        "uvlock": true
+      },
+      "when": {
+        "in_air": "true"
+      }
+    }
+  ]
+}
