@@ -1,27 +1,36 @@
 package com.ytgld.the_wax.block;
 
-import com.mojang.serialization.MapCodec;
+import com.ytgld.the_wax.block.init.BlockInit;
+import com.ytgld.the_wax.feature.gen.TheConfiguredFeatures;
 import net.minecraft.core.BlockPos;
-import net.minecraft.world.level.BlockGetter;
-import net.minecraft.world.level.block.Block;
+import net.minecraft.server.level.ServerLevel;
+import net.minecraft.tags.BlockTags;
+import net.minecraft.util.RandomSource;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.level.LevelReader;
+import net.minecraft.world.level.block.MushroomBlock;
 import net.minecraft.world.level.block.state.BlockState;
-import net.minecraft.world.phys.shapes.CollisionContext;
-import net.minecraft.world.phys.shapes.VoxelShape;
+import net.minecraft.world.level.storage.loot.LootParams;
 
-public class WaxBase extends Block {
-    public static final MapCodec<WaxBase> CODEC = MapCodec.unit(() -> new WaxBase(Block.Properties.of()));
-    private static final VoxelShape SHAPE = Block.box(0.0, 0.0, 0.0, 16.0, 8.0, 16.0);
+import java.util.List;
 
+public class WaxBase extends MushroomBlock {
     public WaxBase(Properties properties) {
-        super(properties);
+        super(properties, TheConfiguredFeatures.BIG_WAX);
     }
 
     @Override
-    public VoxelShape getShape(BlockState pState, BlockGetter pLevel, BlockPos pPos, CollisionContext pContext) {
-        return SHAPE;
+    public List<ItemStack> getDrops(BlockState blockState, LootParams.Builder builder) {
+        return List.of(new ItemStack(BlockInit.WAX_BASE.get()));
     }
 
-        protected MapCodec<? extends WaxBase> codec() {
-        return CODEC;
+    @Override
+    public boolean canSurvive(BlockState blockState, LevelReader levelReader, BlockPos blockPos) {
+        return levelReader.getBlockState(blockPos.above()).is(BlockTags.BASE_STONE_OVERWORLD)
+                || levelReader.getBlockState(blockPos.above()).is(BlockTags.DIRT);
+    }
+
+    @Override
+    public void randomTick(BlockState blockState, ServerLevel serverLevel, BlockPos blockPos, RandomSource randomSource) {
     }
 }

@@ -23,5 +23,9 @@ public class ClientRegistration {
         ItemBlockRenderTypes.setRenderLayer(BlockInit.WAX_JUMP_SLIME.get(), RenderType.translucent());
         ItemBlockRenderTypes.setRenderLayer(BlockInit.WAX_BASE.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(BlockInit.WATER_WAX_BASE.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(BlockInit.WAX_FLOWER.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(BlockInit.NETHER_WAX.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(BlockInit.NETHER_WAX_BASE.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(BlockInit.NETHER_FLOWER.get(), RenderType.cutout());
     }
 }

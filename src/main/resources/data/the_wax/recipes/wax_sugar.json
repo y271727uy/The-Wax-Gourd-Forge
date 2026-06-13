@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "tag": "the_wax:wax"
+    },
+    "C": {
+      "item": "minecraft:sugar"
+    }
+  },
+  "pattern": [
+    "CCC",
+    "CBC",
+    "CCC"
+  ],
+  "result": {
+    "item": "the_wax:wax_sugar",
+    "count": 4
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "request": "launch",
+      "name": "Client",
+      "presentation": {
+        "group": "Mod Development - The-Wax-Gourd-Forge",
+        "order": 0
+      },
+      "projectName": "The-Wax-Gourd-Forge",
+      "mainClass": "net.neoforged.devlaunch.Main",
+      "args": [
+        "@D:\\document\\dev\\GitHub\\The-Wax-Gourd-Forge\\build\\moddev\\clientRunProgramArgs.txt"
+      ],
+      "vmArgs": [
+        "@D:\\document\\dev\\GitHub\\The-Wax-Gourd-Forge\\build\\moddev\\clientRunVmArgs.txt",
+        "-Dfml.modFolders\u003dthe_wax%%D:\\document\\dev\\GitHub\\The-Wax-Gourd-Forge\\bin\\main"
+      ],
+      "cwd": "${workspaceFolder}\\run",
+      "env": {
+        "MOD_CLASSES": "the_wax%%D:\\document\\dev\\GitHub\\The-Wax-Gourd-Forge\\bin\\main"
+      },
+      "console": "internalConsole",
+      "shortenCommandLine": "none"
+    },
+    {
+      "type": "java",
+      "request": "launch",
+      "name": "Data",
+      "presentation": {
+        "group": "Mod Development - The-Wax-Gourd-Forge",
+        "order": 1
+      },
+      "projectName": "The-Wax-Gourd-Forge",
+      "mainClass": "net.neoforged.devlaunch.Main",
+      "args": [
+        "@D:\\document\\dev\\GitHub\\The-Wax-Gourd-Forge\\build\\moddev\\dataRunProgramArgs.txt"
+      ],
+      "vmArgs": [
+        "@D:\\document\\dev\\GitHub\\The-Wax-Gourd-Forge\\build\\moddev\\dataRunVmArgs.txt",
+        "-Dfml.modFolders\u003dthe_wax%%D:\\document\\dev\\GitHub\\The-Wax-Gourd-Forge\\bin\\main"
+      ],
+      "cwd": "${workspaceFolder}\\run",
+      "env": {
+        "MOD_CLASSES": "the_wax%%D:\\document\\dev\\GitHub\\The-Wax-Gourd-Forge\\bin\\main"
+      },
+      "console": "internalConsole",
+      "shortenCommandLine": "none"
+    },
+    {
+      "type": "java",
+      "request": "launch",
+      "name": "GameTestServer",
+      "presentation": {
+        "group": "Mod Development - The-Wax-Gourd-Forge",
+        "order": 2
+      },
+      "projectName": "The-Wax-Gourd-Forge",
+      "mainClass": "net.neoforged.devlaunch.Main",
+      "args": [
+        "@D:\\document\\dev\\GitHub\\The-Wax-Gourd-Forge\\build\\moddev\\gameTestServerRunProgramArgs.txt"
+      ],
+      "vmArgs": [
+        "@D:\\document\\dev\\GitHub\\The-Wax-Gourd-Forge\\build\\moddev\\gameTestServerRunVmArgs.txt",
+        "-Dfml.modFolders\u003dthe_wax%%D:\\document\\dev\\GitHub\\The-Wax-Gourd-Forge\\bin\\main"
+      ],
+      "cwd": "${workspaceFolder}\\run",
+      "env": {
+        "MOD_CLASSES": "the_wax%%D:\\document\\dev\\GitHub\\The-Wax-Gourd-Forge\\bin\\main"
+      },
+      "console": "internalConsole",
+      "shortenCommandLine": "none"
+    },
+    {
+      "type": "java",
+      "request": "launch",
+      "name": "Server",
+      "presentation": {
+        "group": "Mod Development - The-Wax-Gourd-Forge",
+        "order": 3
+      },
+      "projectName": "The-Wax-Gourd-Forge",
+      "mainClass": "net.neoforged.devlaunch.Main",
+      "args": [
+        "@D:\\document\\dev\\GitHub\\The-Wax-Gourd-Forge\\build\\moddev\\serverRunProgramArgs.txt"
+      ],
+      "vmArgs": [
+        "@D:\\document\\dev\\GitHub\\The-Wax-Gourd-Forge\\build\\moddev\\serverRunVmArgs.txt",
+        "-Dfml.modFolders\u003dthe_wax%%D:\\document\\dev\\GitHub\\The-Wax-Gourd-Forge\\bin\\main"
+      ],
+      "cwd": "${workspaceFolder}\\run",
+      "env": {
+        "MOD_CLASSES": "the_wax%%D:\\document\\dev\\GitHub\\The-Wax-Gourd-Forge\\bin\\main"
+      },
+      "console": "internalConsole",
+      "shortenCommandLine": "none"
+    }
+  ]
+}

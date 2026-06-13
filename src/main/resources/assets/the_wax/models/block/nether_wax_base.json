@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "the_wax:block/nether_wax_base"
+  }
+}

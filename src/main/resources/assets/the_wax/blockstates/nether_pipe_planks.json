@@ -1,0 +1,38 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "the_wax:block/nether_pipe_planks_a"
+      },
+      "when": {
+        "a": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "the_wax:block/nether_pipe_planks_b"
+      },
+      "when": {
+        "b": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "the_wax:block/nether_pipe_planks_c"
+      },
+      "when": {
+        "c": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "the_wax:block/nether_pipe_planks"
+      },
+      "when": {
+        "a": "false",
+        "b": "false",
+        "c": "false"
+      }
+    }
+  ]
+}

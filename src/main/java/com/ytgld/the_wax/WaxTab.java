@@ -18,6 +18,7 @@ public class WaxTab {
             .icon(() -> new ItemStack(ItemInit.WAX_BLOCK.get())) // 使用方块物品作为图标
             .displayItems((parameters, output) -> {
                 // 方块
+                output.accept(new ItemStack(ItemInit.NETHER_WAX_BASE_BLOCK.get()));
                 output.accept(new ItemStack(ItemInit.WAX_BASE_BLOCK.get()));
                 output.accept(new ItemStack(ItemInit.WATER_WAX_BASE_BLOCK.get()));
 
@@ -31,6 +32,12 @@ public class WaxTab {
                 output.accept(new ItemStack(ItemInit.WAX_SPONGE_BLOCK.get()));
                 output.accept(new ItemStack(ItemInit.WET_WAX_SPONGE_BLOCK.get()));
                 output.accept(new ItemStack(ItemInit.PIPE_WALL_BLOCK.get()));
+                output.accept(new ItemStack(ItemInit.WAX_FLOWER_BLOCK.get()));
+                output.accept(new ItemStack(ItemInit.NETHER_WAX_BLOCK.get()));
+                output.accept(new ItemStack(ItemInit.NETHER_PIPE_BLOCK.get()));
+                output.accept(new ItemStack(ItemInit.NETHER_PIPE_OTHER_BLOCK.get()));
+                output.accept(new ItemStack(ItemInit.NETHER_PIPE_PLANKS_BLOCK.get()));
+                output.accept(new ItemStack(ItemInit.NETHER_FLOWER_BLOCK.get()));
                 output.accept(new ItemStack(ItemInit.WAX_JUMP_SLIME_BLOCK.get()));
                 output.accept(new ItemStack(ItemInit.WAX_PIPE_CANDLE_BLOCK.get()));
                 output.accept(new ItemStack(ItemInit.PIPE_HONEY_CANDLE_BLOCK.get()));

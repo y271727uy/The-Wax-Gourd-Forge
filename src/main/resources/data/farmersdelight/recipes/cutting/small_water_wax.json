@@ -1,0 +1,18 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "the_wax:water_wax"
+    }
+  ],
+  "result": [
+    {
+      "item": "the_wax:small_water_wax",
+      "count": 4
+    }
+  ],
+  "sound": "minecraft:item.axe.strip",
+  "tool": {
+    "tag": "forge:tools/knives"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "tag": "minecraft:candles"
+    },
+    "B": {
+      "item": "minecraft:honey_bottle"
+    },
+    "C": {
+      "tag": "the_wax:pipe"
+    }
+  },
+  "pattern": [
+    "A",
+    "B",
+    "C"
+  ],
+  "result": {
+    "item": "the_wax:pipe_honey_candle_item",
+    "count": 1
+  }
+}

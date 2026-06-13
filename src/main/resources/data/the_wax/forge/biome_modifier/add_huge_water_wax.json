@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#minecraft:is_ocean",
+  "features": "the_wax:huge_water_wax",
+  "step": "vegetal_decoration"
+}

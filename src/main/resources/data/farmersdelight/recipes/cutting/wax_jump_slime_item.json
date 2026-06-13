@@ -1,0 +1,22 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "the_wax:wax_jump_slime_item"
+    }
+  ],
+  "result": [
+    {
+      "item": "the_wax:small_jump_slime",
+      "count": 12
+    },
+    {
+      "item": "minecraft:sweet_berries",
+      "count": 1
+    }
+  ],
+  "sound": "minecraft:item.axe.strip",
+  "tool": {
+    "tag": "forge:tools/knives"
+  }
+}

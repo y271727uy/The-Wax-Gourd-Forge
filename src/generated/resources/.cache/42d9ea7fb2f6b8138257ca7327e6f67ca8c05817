@@ -1,4 +1,5 @@
-// 1.20.1	2026-01-13T00:41:27.8232077	Tags for minecraft:item mod id the_wax
-2eb7a2663b6d70289cc7e01e2e0e8019898eb0e5 data/minecraft/tags/items/planks.json
-35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data/the_wax/tags/items/pipe.json
-2eb7a2663b6d70289cc7e01e2e0e8019898eb0e5 data/the_wax/tags/items/wax.json
+// 1.20.1	2026-06-13T19:46:59.5651778	Tags for minecraft:item mod id the_wax
+bb381343efad74a1da33ef677319df9cb4d10937 data/minecraft/tags/items/planks.json
+adfdbf7980d8c0efec37b4491061501bb7a012f6 data/the_wax/tags/items/nether_pipe.json
+1029b9d7a006510eadda36141dfd8c767537de24 data/the_wax/tags/items/pipe.json
+4518669263a9e415b0c4b65724d7026f81f01a4c data/the_wax/tags/items/wax.json

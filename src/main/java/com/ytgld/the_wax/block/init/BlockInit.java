@@ -2,6 +2,7 @@ package com.ytgld.the_wax.block.init;
 
 import com.ytgld.the_wax.WaxMod;
 import com.ytgld.the_wax.block.*;
+import com.ytgld.the_wax.block.nether.*;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.SoundType;
@@ -30,7 +31,7 @@ public class BlockInit {
     public static final RegistryObject<Block> WAX_PINE = register("wax_vine_pipe", () -> new WaxVinePipe(
             BlockBehaviour.Properties.of().strength(0.2f).sound(SoundType.WOOD)));
     public static final RegistryObject<Block> WAX_BASE = register("wax_base", () -> new WaxBase(
-            BlockBehaviour.Properties.of().strength(0.2f).sound(SoundType.WOOD)));
+            BlockBehaviour.Properties.of().strength(0.2f).noCollission().noOcclusion().sound(SoundType.WOOD)));
     public static final RegistryObject<Block> WAX_SUGAR = register("wax_sugar", () -> new WaxSugar(
             BlockBehaviour.Properties.of().strength(0.2f)
                     .noOcclusion().friction(0.98f)
@@ -71,7 +72,7 @@ public class BlockInit {
                 return 8;
             }).sound(SoundType.WOOD)));
     public static final RegistryObject<Block> WATER_WAX_BASE = register("water_wax_base", () -> new WaterWaxBase(
-            BlockBehaviour.Properties.of().strength(0.2f).sound(SoundType.WOOD)));
+            BlockBehaviour.Properties.of().strength(0.2f).noOcclusion().sound(SoundType.WOOD)));
     public static final RegistryObject<Block> WAX_SPONGE = register("wax_sponge", () -> new WaxSponge(
             BlockBehaviour.Properties.of().strength(0.3f).sound(SoundType.CORAL_BLOCK)));
     public static final RegistryObject<Block> WET_WAX_SPONGE = register("wet_wax_sponge", () -> new WetWaxSponge(
@@ -80,6 +81,27 @@ public class BlockInit {
             BlockBehaviour.Properties.of().strength(0.45F).lightLevel((state)->{
                 return 8;
             }).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> WAX_FLOWER = register("wax_flower", () -> new WaxFlower(
+            BlockBehaviour.Properties.of().strength(0.1F).lightLevel((state)->{
+                return 15;
+            }).noCollission().noOcclusion().sound(SoundType.WET_GRASS)));
+
+    public static final RegistryObject<Block> NETHER_WAX = register("nether_wax", () -> new NetherWaxBlock(
+            BlockBehaviour.Properties.of().strength(0.8f).lightLevel((state)->{
+                return 15;
+            }).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> NETHER_PIPE = register("nether_pipe", () -> new NetherPipe(
+            BlockBehaviour.Properties.of().strength(1f).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> NETHER_PIPE_OTHER = register("nether_pipe_other", () -> new NetherPipeOther(
+            BlockBehaviour.Properties.of().strength(1f).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> NETHER_WAX_BASE = register("nether_wax_base", () -> new NetherWaxBase(
+            BlockBehaviour.Properties.of().strength(0.2f).noCollission().noOcclusion().sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> NETHER_FLOWER = register("nether_flower", () -> new NetherFlower(
+            BlockBehaviour.Properties.of().strength(0.8f).lightLevel((state)->{
+                return 11;
+            }).noCollission().noOcclusion().sound(SoundType.GRASS)));
+    public static final RegistryObject<Block> NETHER_PIPE_PLANKS = register("nether_pipe_planks", () -> new NetherPipePlanks(
+            BlockBehaviour.Properties.of().strength(1f).sound(SoundType.WOOD)));
 
     private static <T extends Block> RegistryObject<T> register(String path, Supplier<T> block) {
         return BLOCKS.register(path, block);

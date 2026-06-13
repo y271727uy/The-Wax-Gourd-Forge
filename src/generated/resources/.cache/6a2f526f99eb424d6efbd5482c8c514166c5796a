@@ -1,3 +1,5 @@
-// 1.20.1	2026-01-13T00:06:26.0002371	Tags for minecraft:block mod id the_wax
+// 1.20.1	2026-06-13T19:46:59.5621596	Tags for minecraft:block mod id the_wax
 260e92509d56b83224e650b1694282fe17c4823c data/minecraft/tags/blocks/candles.json
-35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data/minecraft/tags/blocks/walls.json
+d55d7efa17713db4b800e177385c249a8f398df9 data/minecraft/tags/blocks/mineable/axe.json
+21fa4170b1c37447666501cad0035be6da3a4a83 data/minecraft/tags/blocks/mineable/hoe.json
+d2834a71245e11d57d7a884936e3c755219970bb data/minecraft/tags/blocks/walls.json

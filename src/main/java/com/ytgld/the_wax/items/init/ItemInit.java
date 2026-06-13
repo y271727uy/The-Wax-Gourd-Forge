@@ -49,6 +49,20 @@ public class ItemInit {
             new Item.Properties()));
     public static final RegistryObject<Item> PIPE_WALL_BLOCK = register("pipe_wall", () -> new BlockItem(BlockInit.PIPE_WALL.get(), 
             new Item.Properties()));
+    public static final RegistryObject<Item> WAX_FLOWER_BLOCK = register("wax_flower", () -> new BlockItem(BlockInit.WAX_FLOWER.get(),
+            new Item.Properties()));
+    public static final RegistryObject<Item> NETHER_WAX_BLOCK = register("nether_wax", () -> new BlockItem(BlockInit.NETHER_WAX.get(),
+            new Item.Properties()));
+    public static final RegistryObject<Item> NETHER_PIPE_BLOCK = register("nether_pipe", () -> new BlockItem(BlockInit.NETHER_PIPE.get(),
+            new Item.Properties()));
+    public static final RegistryObject<Item> NETHER_PIPE_OTHER_BLOCK = register("nether_pipe_other", () -> new BlockItem(BlockInit.NETHER_PIPE_OTHER.get(),
+            new Item.Properties()));
+    public static final RegistryObject<Item> NETHER_WAX_BASE_BLOCK = register("nether_wax_base", () -> new BlockItem(BlockInit.NETHER_WAX_BASE.get(),
+            new Item.Properties()));
+    public static final RegistryObject<Item> NETHER_FLOWER_BLOCK = register("nether_flower", () -> new BlockItem(BlockInit.NETHER_FLOWER.get(),
+            new Item.Properties()));
+    public static final RegistryObject<Item> NETHER_PIPE_PLANKS_BLOCK = register("nether_pipe_planks", () -> new BlockItem(BlockInit.NETHER_PIPE_PLANKS.get(),
+            new Item.Properties()));
 
     // 功能性物品
     public static final RegistryObject<Item> ITEM_WAX = register("item_wax", () -> new SmallWaxItem(

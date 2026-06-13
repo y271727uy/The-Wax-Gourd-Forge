@@ -5,6 +5,8 @@ import com.ytgld.the_wax.feature.BigWaxFeature;
 import com.ytgld.the_wax.feature.WaterFeatureConfig;
 import com.ytgld.the_wax.feature.WaterWaxFeature;
 import com.ytgld.the_wax.feature.WaxFeatureConfig;
+import com.ytgld.the_wax.feature.nether.NetherWaxFeature;
+import com.ytgld.the_wax.feature.nether.NetherWaxFeatureConfig;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.resources.ResourceLocation;
@@ -19,6 +21,7 @@ public class TheFeatures {
     
     public static final RegistryObject<Feature<WaxFeatureConfig>> WAX_FEATURE_CONFIG_FEATURE = FEATURES.register("huge_wax", () -> new BigWaxFeature(WaxFeatureConfig.CODEC));
     public static final RegistryObject<Feature<WaterFeatureConfig>> WATER_FEATURE_CONFIG_FEATURE = FEATURES.register("huge_water_wax", () -> new WaterWaxFeature(WaterFeatureConfig.CODEC));
+    public static final RegistryObject<Feature<NetherWaxFeatureConfig>> HUGE_NETHER_WAX_FEATURE = FEATURES.register("huge_nether_wax", () -> new NetherWaxFeature(NetherWaxFeatureConfig.CODEC));
 
     public static void init() {
     }

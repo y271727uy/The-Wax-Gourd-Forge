@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "the_wax:wax_base"
+    },
+    "C": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "pattern": [
+    "CCC",
+    "CBC",
+    "CCC"
+  ],
+  "result": {
+    "item": "the_wax:nether_wax_base",
+    "count": 1
+  }
+}

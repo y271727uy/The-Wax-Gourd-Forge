@@ -1,0 +1,24 @@
+{
+  "type": "farmersdelight:cooking",
+  "experience": 1.0,
+  "cookingtime": 100,
+  "ingredients": [
+    {
+      "item": "the_wax:item_wax"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "item": "the_wax:wax_strips",
+    "count": 1
+  }
+}

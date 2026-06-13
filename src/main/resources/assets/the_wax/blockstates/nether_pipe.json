@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "the_wax:block/nether_pipe"
+      },
+      {
+        "model": "the_wax:block/nether_pipe",
+        "x": 180
+      },{
+        "model": "the_wax:block/nether_pipe",
+        "y": 180
+      },{
+        "model": "the_wax:block/nether_pipe",
+        "z": 180
+      }
+    ]
+  }
+}

@@ -1,7 +1,7 @@
 {
 	"format_version": "1.21.11",
 	"credit": "Made with Blockbench",
-	"parent": "the_wax:block/template_fruit_log",
+	"parent": "minecraft:block/block",
 	"textures": {
 		"texture": "the_wax:block/wax_vine_pipe"
 	},

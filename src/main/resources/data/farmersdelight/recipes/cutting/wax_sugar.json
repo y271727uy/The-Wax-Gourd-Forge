@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "the_wax:wax_sugar"
+    }
+  ],
+  "result": [
+    {
+      "item": "minecraft:sugar",
+      "count": 4
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  }
+}
